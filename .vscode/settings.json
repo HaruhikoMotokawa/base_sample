@@ -41,7 +41,6 @@
       "addWords": true
     }
   },
-  // スペルチェックを行うファイルの指定
   "cSpell.files": [
     "lib/**/*.dart",
     "test/**/*.dart",
@@ -83,40 +82,40 @@
       "backgroundColor": "transparent",
       "bold": false,
       "italic": false
-    },
+    }
   ],
   "todo-tree.general.tags": [
     "INFO:",
     "TODO:",
     "HACK:",
-    "FIXME:",
+    "FIXME:"
   ],
   "todo-tree.highlights.customHighlight": {
     "INFO:": {
       "icon": "info",
       "foreground": "#050606",
-      "iconColour": "#3498DB",
+      "iconColour": "#3498DB"
     },
     "TODO:": {
       "icon": "check",
       "foreground": "#FF8C00",
-      "iconColour": "#FF8C00",
+      "iconColour": "#FF8C00"
     },
     "HACK:": {
       "icon": "tools",
       "foreground": "#D516D5FF",
-      "iconColour": "#D516D5FF",
+      "iconColour": "#D516D5FF"
     },
     "FIXME:": {
       "icon": "flame",
       "foreground": "#FF2D00",
-      "iconColour": "#FF2D00",
-    },
+      "iconColour": "#FF2D00"
+    }
   },
   "todo-tree.tree.scanMode": "workspace only",
   "cSpell.words": [
     "fvmrc",
     "pubspec",
     "riverpod"
-  ],
+  ]
 }
