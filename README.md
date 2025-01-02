@@ -12,6 +12,12 @@
 - Todo Tree
   - https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
 
+## fvmによるバージョン管理
+
+このプロジェクトにはfvmを使用してFlutterのバージョン管理をしています。
+
+[fvm](https://pub.dev/packages/fvm)
+
 ## pubspec.yaml
 以下はすでにインストール済みです。不要であれば削除してください。
   - riverpodとhooks関連
