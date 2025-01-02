@@ -1,4 +1,4 @@
-# INFO: VSCodeの置換を使って */lib でインポートを一括変更する
+# INFO: VSCodeの置換を使って ./lib でインポートを一括変更する
 name: base_sample
 description: "A new Flutter project."
 publish_to: "none"
