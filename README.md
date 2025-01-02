@@ -35,7 +35,7 @@ derryコマンドを使用して運用してください。
 
 ## アーキテクチャ
 
-基本はRiverpodArchitectureを基本としています。
+RiverpodArchitectureを基本としています。
 
 [Flutter App Architecture with Riverpod: An Introduction](https://codewithandrea.com/articles/flutter-app-architecture-riverpod-introduction/)
 
