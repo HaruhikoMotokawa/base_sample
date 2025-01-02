@@ -2,6 +2,12 @@
 
 このプロジェクトはサンプルプロジェクトを作るにあたっての雛形となるプロジェクトです。
 
+## プロジェクトの運用例
+
+以下のリンクの記事にクローンからサンプルプロジェクトを作る流れを記しています。
+
+[記事です](https://hoge.hoge)
+
 ## VScodeの拡張と設定
 
 .vscode/settings.jsonには以下の拡張機能を使う前提で設定が書かれています。
@@ -27,7 +33,7 @@
   - very_good_analysis
   - derry
   - change_app_package_name
-
+  - utility_widgets
 またderryで使うスクリプトも登録済みです。
 
 ## analysis_options.yaml

@@ -1,4 +1,4 @@
-# INFO: VSCodeの置換を使って ./lib でインポートを一括変更する
+# INFO: VSCodeの置換を使って ./lib 内の base_sample のimportを一括変更し、ここの name も変更する
 name: base_sample
 description: "A new Flutter project."
 publish_to: "none"
@@ -17,8 +17,8 @@ dependencies:
   riverpod_annotation:
   gap:
   logger:
-
   very_good_analysis:
+  # INFO: 個人作成のWidgetパッケージ -> 未使用であれば削除
   utility_widgets:
     git:
       url: https://github.com/HaruhikoMotokawa/utility_widgets.git
