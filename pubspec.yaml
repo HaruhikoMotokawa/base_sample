@@ -1,4 +1,4 @@
-# このプロジェクトはgitからクローンして作っています。ymalのパッケージ名は基本は変更せずにそのままで使用しています。
+# INFO: VSCodeの置換を使って */lib でインポートを一括変更する
 name: base_sample
 description: "A new Flutter project."
 publish_to: "none"
@@ -55,3 +55,6 @@ scripts:
   cov: flutter test --coverage && lcov --remove coverage/lcov.info 'lib/**.g.dart' -o coverage/new_lcov.info --ignore-errors unused && genhtml coverage/new_lcov.info -o coverage/html && open coverage/html/index.html
   # very_good testバージョン -> 最初にdart pub global activate very_good_cliで設定が必要
   cov_good: very_good test -- --coverage && lcov --remove coverage/lcov.info 'lib/**.g.dart' -o coverage/lcov.info && genhtml coverage/lcov.info -o coverage/html && open coverage/html/index.html
+  # 初期設定のスクリプト
+  # INFO:実行する前にVScodeの置換機能を使ってConstants.appNameとこのスクリプト内の [ NewAppName ]を任意の名前に変えておく
+  init_app: rm -rf .git && git init && flutter pub run build_runner build --delete-conflicting-outputs && dart run rename_app:main all="NewAppName"
