@@ -1,15 +1,14 @@
 # base_sample
 
-<img src="assets/image0.png" width="300">
+<img src="thumbnail/base_sample_thumbnail.png" width="300">
 
+> [!NOTE]
+>  このプロジェクトのFlutterSDKは **3.27.1** です。
 ## 概要
 このプロジェクトはサンプルプロジェクトを作るにあたっての雛形となるプロジェクトです。
 
-## プロジェクトの運用例
-
-以下のリンクの記事にクローンからサンプルプロジェクトを作る流れを記しています。
-
-[記事です](https://hoge.hoge)
+この雛形プロジェクトからサンプル用のプロジェクトを構築する流れを以下の記事に記しています。
+[【Flutter】学習・開発効率UP！雛形からサンプル用プロジェクト構築ガイド](https://zenn.dev/harx/articles/23cac8d1e15d35)
 
 ## VScodeの拡張と設定
 
@@ -35,7 +34,7 @@
   - gap
   - very_good_analysis
   - derry
-  - change_app_package_name
+  - rename_app
   - utility_widgets
 またderryで使うスクリプトも登録済みです。
 
