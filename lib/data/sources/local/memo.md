@@ -4,4 +4,4 @@
 
 主にisarやshared_preferencesと言ったローカルDB系や、
 
-loacl_authやshared_plusなどのデバイス機能関連です。
+loacl_authやflutter_local_notificationsなどのデバイス機能関連です。
