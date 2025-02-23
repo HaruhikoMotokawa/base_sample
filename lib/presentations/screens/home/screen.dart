@@ -5,6 +5,9 @@ class HomeScreen extends StatelessWidget {
     super.key,
   });
 
+  static const name = 'HomeScreen';
+  static const path = '/';
+
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
