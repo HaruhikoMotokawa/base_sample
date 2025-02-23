@@ -3,7 +3,7 @@
 <img src="thumbnail/base_sample_thumbnail.png" width="300">
 
 > [!NOTE]
->  このプロジェクトのFlutterSDKは **3.27.1** です。
+>  このプロジェクトのFlutterSDKは **3.29.0** です。
 ## 概要
 このプロジェクトはサンプルプロジェクトを作るにあたっての雛形となるプロジェクトです。
 
