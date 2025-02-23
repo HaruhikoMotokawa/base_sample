@@ -36,6 +36,7 @@
   - derry
   - rename_app
   - utility_widgets
+  - go_router
 またderryで使うスクリプトも登録済みです。
 
 ## analysis_options.yaml
