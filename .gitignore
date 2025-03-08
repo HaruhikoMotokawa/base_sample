@@ -45,13 +45,16 @@ app.*.map.json
 /android/app/release
 /coverage
 
-# // 機微情報
+# 機微情報
 GoogleService-Info.plist
 google-services.json
 firebase_app_id_file.json
 
 # iosのbuildの成果物
 ios/output/**
+
+# Ignore Android NDK build cache
+android/app/.cxx
 
 # Ignore Android NDK build cache
 android/app/.cxx
