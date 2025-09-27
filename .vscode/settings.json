@@ -32,7 +32,7 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "dart.previewFlutterUiGuides": true,
-  "dart.flutterSdkPath": ".fvm/versions/3.29.0",
+  "dart.flutterSdkPath": ".fvm/versions/3.35.4",
   "cSpell.customDictionaries": {
     "project-words": {
       "name": "project-words",
