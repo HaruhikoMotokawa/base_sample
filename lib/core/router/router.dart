@@ -1,7 +1,6 @@
-import 'package:base_sample/presentations/screens/home/screen.dart';
+import 'package:base_sample/presentations/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'router.g.dart';
